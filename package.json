@@ -2,7 +2,7 @@
     "name": "ezprofile",
     "version": "1.0.0",
     "description": "Kickstart your personal portfolio with Github Api and blog",
-    "homepage": "https://arifszn.github.io/ezprofile",
+    "homepage": "https://shivamgupta10.github.io",
     "private": true,
     "license": "Apache-2.0",
     "author": "arifszn",
@@ -76,5 +76,9 @@
         "github-portfolio",
         "react-portfolio",
         "github-api"
-    ]
+    ],
+
+    "resolutions": {
+        "color": "3.2.0"
+    }
 }
