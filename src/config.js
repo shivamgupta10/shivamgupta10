@@ -1,7 +1,7 @@
 // config.js
 module.exports = {
     github: {
-        username: 'arifszn', // Your GitHub org/user name. (Required)
+        username: 'shivamgupta10', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
@@ -37,19 +37,19 @@ module.exports = {
         'Bootstrap',
     ],
     experiences: [
-        { 
+        {
             company: 'Monstarlab Bangladesh',
             position: 'Software Engineer',
             from: 'September 2021',
             to: 'Present'
         },
-        { 
+        {
             company: 'Orangetoolz - My Offer 360 Degree',
             position: 'Jr. Full Stack Engineer',
             from: 'July 2019',
             to: 'August 2021'
         },
-        { 
+        {
             company: 'Techvillage',
             position: 'Jr. Software Engineer',
             from: 'January 2019',
@@ -57,19 +57,19 @@ module.exports = {
         }
     ],
     education: [
-        { 
+        {
             institution: 'American International University-Bangladesh',
             degree: 'Bachelor of Science',
             from: '2015',
             to: '2019'
         },
-        { 
+        {
             institution: 'Cantonment College, Jessore',
             degree: 'Higher Secondary Certificate (HSC)',
             from: '2012',
             to: '2014',
         },
-        { 
+        {
             institution: 'Chowgacha Shahadat Pilot High School',
             degree: 'Secondary School Certificate (SSC)',
             from: '2007',
