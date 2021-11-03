@@ -4,7 +4,7 @@ import { SiTwitter } from 'react-icons/si';
 import { GrLinkedinOption } from 'react-icons/gr';
 import { CgDribbble } from 'react-icons/cg';
 import { RiPhoneFill } from 'react-icons/ri';
-import { FaBehanceSquare, FaBuilding, FaDev, FaFacebook, FaGlobe } from 'react-icons/fa';
+import { FaBehanceSquare, FaBuilding, FaDev, FaFacebook, FaGlobe, FaStackOverflow } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
 import config from '../config';
 import { skeleton } from '../helpers/utils';
@@ -81,6 +81,23 @@ const Details = () => {
                                                     className="text-base-content-important"
                                                 >
                                                     {config.social.linkedin}
+                                                </a>
+                                            </span>
+                                        </li>
+                                    )
+                                }
+                                {
+                                    typeof config.social.stackoverflow !== 'undefined' && config.social.stackoverflow && (
+                                        <li>
+                                            <span>
+                                                <FaStackOverflow className="mr-2" />
+                                                <a
+                                                    href={`https://www.stackoverflow.com/users/12786202/${config.social.stackoverflow}`}
+                                                    target="_blank"
+                                                    rel="noreferrer"
+                                                    className="text-base-content-important"
+                                                >
+                                                    {config.social.stackoverflow}
                                                 </a>
                                             </span>
                                         </li>
