@@ -10,76 +10,73 @@ module.exports = {
         }
     },
     social: {
-        linkedin: 'ariful-alam',
-        twitter: 'arif_swozon',
+        linkedin: 'shivam-gupta-598265a1',
+        stackoverflow:'shivam-gupta',
         facebook: '',
         dribbble: '',
         behance: '',
         medium: '',
         devto: '',
-        website: 'https://arifszn.github.io',
-        phone: '',
-        email: 'contact@arifszn.com'
+        website: 'https://shivamgupta10.github.io/',
+        phone: '+919560925185',
+        email: 'shivamgupta000@gmail.com'
     },
     skills: [
-        'PHP',
-        'Laravel',
-        'JavaScript',
-        'React.js',
-        'Vue.js',
-        'Node.js',
-        'Jquery',
-        'MySQL',
-        'Git',
-        'CSS',
-        'Antd',
-        'Tailwind',
-        'Bootstrap',
+        'Angular 2+',
+        'Angular JS',
+        'Javascript',
+        'TypeScript',
+        'Node JS',
+        'HTML5',
+        'CSS3',
+        'Unit Testing',
+        'Selenium/Protactor',
+        'Data Structure and Algorithms'
+
     ],
     experiences: [
         {
-            company: 'Monstarlab Bangladesh',
-            position: 'Software Engineer',
-            from: 'September 2021',
+            company: 'Factset Research Systems',
+            position: 'Software Engineer III',
+            from: 'Jan 2019',
             to: 'Present'
         },
         {
-            company: 'Orangetoolz - My Offer 360 Degree',
-            position: 'Jr. Full Stack Engineer',
-            from: 'July 2019',
-            to: 'August 2021'
+            company: 'Tata Consultancy Services',
+            position: 'Systems Engineer',
+            from: 'June 2017',
+            to: 'Dec 2018'
         },
         {
-            company: 'Techvillage',
-            position: 'Jr. Software Engineer',
-            from: 'January 2019',
-            to: ' June 2019'
+            company: 'Accenture',
+            position: 'Application Development Analyst',
+            from: 'January 2015',
+            to: 'Feb 2017'
         }
     ],
     education: [
         {
-            institution: 'American International University-Bangladesh',
-            degree: 'Bachelor of Science',
-            from: '2015',
-            to: '2019'
+            institution: 'The NorthCap University',
+            degree: 'BTECH(EEE)',
+            from: '2010',
+            to: '2014'
         },
         {
-            institution: 'Cantonment College, Jessore',
-            degree: 'Higher Secondary Certificate (HSC)',
-            from: '2012',
-            to: '2014',
+            institution: 'Senior School Certificate Examination(CBSE)',
+            from: '2009',
+            to:"10"
+
         },
         {
-            institution: 'Chowgacha Shahadat Pilot High School',
-            degree: 'Secondary School Certificate (SSC)',
+            institution: 'Secondary School Examination(CBSE)',
             from: '2007',
-            to: '2012'
+            to:"08"
         }
     ],
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
         source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
+        username: '',
         limit: 2 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
